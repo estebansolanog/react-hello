@@ -12,11 +12,11 @@ const Home = () => {
 			<Navbar />
 			<div className="container">
 			  <Jumbotron />
-			  <div className="row d-flex justify-content-center">
-			  <Card />
-			  <Card />
-			  <Card />
-			  <Card />
+			  <div className="row row-cols-auto d-flex justify-content-center">
+			  <div className="col-10 col-sm-10 col-md-10 col-lg-3 col-xl-3 col-xxl-3"><Card /></div>
+			  <div className="col-10 col-sm-10 col-md-10 col-lg-3 col-xl-3 col-xxl-3"><Card /></div>
+			  <div className="col-10 col-sm-10 col-md-10 col-lg-3 col-xl-3 col-xxl-3"><Card /></div>
+			  <div className="col-10 col-sm-10 col-md-10 col-lg-3 col-xl-3 col-xxl-3"><Card /></div>
 			  </div>
 			</div>
 		</div>

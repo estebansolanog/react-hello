@@ -4,7 +4,7 @@ const Card = () => {
   //<></> se conocen como React Fragment
   return (
     <>
-      <div className="card m-2 p-0 col">
+      <div className="card m-2 mb-3 p-0">
         <img
           src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Placeholder_view_vector.svg/681px-Placeholder_view_vector.svg.png"
           className="img-fluid"
